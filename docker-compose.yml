@@ -29,8 +29,8 @@ services:
 # This is the easiest way to use IPv6 networks.
     network_mode: host
 #    network_mode: bridge
-    networks:
-      - internal
+#    networks:
+#      - internal
 #    ports:
 #      - 6800:6800
 #      - 6888:6888
