@@ -24,7 +24,7 @@ services:
       - TZ=Asia/Shanghai
     volumes:
       - /root/aria2-config:/config
-      - /root/nfs/nextcloud:/downloads
+      - /root/nfs/Video/videotmp:/downloads
 # If you use host network mode, then no port mapping is required.
 # This is the easiest way to use IPv6 networks.
     network_mode: host
